@@ -36,7 +36,6 @@ function myMessage() {
   $num = 10;
   add_five($num);
   echo $num;
-*/
 
 function sumMyNumbers(...$x) {
   $n = 0;
@@ -49,7 +48,19 @@ function sumMyNumbers(...$x) {
 
 $a = sumMyNumbers(5, 2, 6, 2, 7, 7);
 echo $a;
+*/
+function sumMyNumbers(...$x) {
+  $suma = 0;
+  $len = count($x);
+  foreach ($x as $num) {
+    $suma += $num;
+  }
+  
+  return $suma;
+}
 
+$a = sumMyNumbers(5, 2, 6, 2, 7, 7);
+echo "la suma es: $a";
 
 ?>
 
