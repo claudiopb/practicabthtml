@@ -26,7 +26,7 @@ if ($result = $mysqli -> query($sql)) {
    }
 
   
-  $result -> free_result();
+ $result -> free_result();
 }
 
 $mysqli -> close();
