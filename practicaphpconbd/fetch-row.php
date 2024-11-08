@@ -23,11 +23,14 @@ if ($result = $mysqli -> query($sql)) {
 if ($result = $mysqli -> query($sql)) {
    while($row = $result -> fetch_row()){
       print "$row[0]" ."  ". "$row[1] "."  ". "$row[3] <br>";
-   }
-
+   } 
+   
+   
+  }
   
- $result -> free_result();
-}
+$result -> free_result();
+  
+
 
 $mysqli -> close();
 ?>
