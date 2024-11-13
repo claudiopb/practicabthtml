@@ -18,14 +18,14 @@
     <div class="container overflow-hidden text-center">
         <div class="row gy-2">
             <div class="col-6">
-                <div class="p-1">
+                <div class="p-2">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Relleno de columna personalizado</font>
                     </font>
                 </div>
             </div>
             <div class="col-6">
-                <div class="p-1">
+                <div class="p-2">
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Relleno de columna personalizado</font>
                     </font>
