@@ -11,13 +11,15 @@
 
 <body>
     <header>
-        <div class="container-fluid pt-3 my-6 bg-warning text-dark">
-            <h1>My First Bootstrap Page</h1>
-            <h4>HOME</h4>
-
-            <p>The .container-fluid class provides a full width container, spanning the entire width of the
-                viewport.
-            </p>
+        <div class="container-fluid pt-3 my-6  text-dark">
+        
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">HOME</a></li>
+           <li class="breadcrumb-item active" aria-current="page">PRODUCOS</li>
+          </ol>
+        </nav>    
+       
         </div>
     </header>
     <nav class="navbar bg-body-tertiary">
